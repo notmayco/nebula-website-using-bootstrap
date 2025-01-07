@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <title>Nebula - Website using bootstrap</title>
+</head>
+<body>
+    <header class="container">
+
+        <div class="row">
+          <div class="col-sm-12 col-lg-3 col-md-2 d-flex justify-content-center">
+            <img src="../img/NEBULA.png" alt="Nebula Logo">
+          </div>
+          <div class="col-sm-12 col-lg-6 col-md-8 d-flex justify-content-center pt-2 pb-5">
+            <ul class="nav gap-5 mt-5">
+              <li class="nav-item"><a href="">Home</a></li>
+              <li class="nav-item"><a href="">About</a></li>
+              <li class="nav-item"><a href="">Contact</a></li>
+              <li class="nav-item"><a href="">Booking</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-lg-3 col-md-2 pb-3 align-content-center text-center pt-3 ">
+            <button class="p-2 rounded bg-primary-subtle">Dive Into Space</button>
+          </div>
+        </div>
+
+    </header>
+    
+    <main class="container">
+    
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="../img/spacex-uj3hvdfQujI-unsplash.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Beyond the Horizon: Your Gateway to the Cosmos</h5>
+              <p>Discover the wonders of space as you journey beyond Earth's limits to explore the vast unknown.</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="../img/nasa-8Hjx3GNZYeA-unsplash.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Journey to the Infinite</h5>
+              <p>Embark on a breathtaking adventure into the endless expanse of the universe and witness its majesty.</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="../img/nasa-jlV2k_Fx0fc-unsplash.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Stars Within Reach</h5>
+              <p>Turn your dream of touching the stars into reality with a journey that redefines exploration. See Earth from above and connect with the cosmos like never before.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+
+      <div class="container">
+
+        <div class="row justify-content-around pt-5 gap-2">
+
+          <div class="card" style="width: 18rem;">
+            <img src="../img/earth.jpg" class="card-img-top c-cimg " alt="earth">
+            <div class="card-body">
+              <h5 class="card-title">Orbital Adventures: A Journey Around Earth</h5>
+              <p class="card-text">Experience the thrill of orbiting our planet in a state-of-the-art spacecraft. Witness Earth from a breathtaking perspective as you circle the globe, watching sunrises and sunsets from space in mere minutes. </p>
+              <a href="#" class="btn btn-primary">Book your next trip</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="../img/moon.jpg" class="card-img-top c-cimg" alt="moon">
+            <div class="card-body">
+              <h5 class="card-title">Lunar Expeditions: Walk on the Moon</h5>
+              <p class="card-text">Step into history with an extraordinary trip to the Moon. Travel across the cosmos to explore its surface, marvel at the stunning lunar landscape, and gaze back at Earth as only a handful of people have before.</p>
+              <a href="#" class="btn btn-primary">Book your next trip</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="../img/nebu.jpg" class="card-img-top c-cimg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Suborbital Thrills: The Edge of Space Experience</h5>
+              <p class="card-text">Take an exhilarating suborbital flight to the edge of space, where adventure meets the final frontier. Feel the rush of ascent, experience moments of weightlessness.</p>
+              <a href="#" class="btn btn-primary mt-3">Book your next trip</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container mt-4">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 justify-content-center align-content-center p-5">
+            <h4 class="text-light">Nebula <br> Where Exploration Begins.</h1>
+          </div>
+
+          <div class="col-sm-12 col-md-4 p-5 justify-content-center align-content-center">
+            <h5 class="text-light">Stay Connected</h5>
+            <p class="text-light">Follow us on social media for the latest updates, behind-the-scenes content, and exclusive offers.</p>
+          </div>
+
+          <div class="col-sm-12 col-md-4 p-5 justify-content-center align-content-center">
+            <h5 class="text-light">Space Awaits</h5>
+            <p class="text-light">Are you ready to embark on the ultimate journey? Your seat among the stars is waiting.</p>
+          </div>
+        </div>
+    </footer>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
